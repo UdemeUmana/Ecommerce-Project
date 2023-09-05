@@ -1,0 +1,100 @@
+E-commerce
+  Business Analysis
+  By: Udeme Umana
+
+Table Of Content
+  ● Introduction
+  ● Procedures and tools used
+  ● Entity Relational Diagram
+  ● Data observation with Sql
+  ● Business questions and Problems
+  ● Conclusion
+
+Overview
+  This project contains datasets that were developed by me from scratch. The
+  main objective of this project is to use data to answer real life business
+  problems. The dataset consists of the following files: Customer_data,
+  Employee_data, job_info, order, product, sales stored procedures, functions
+  and a view.
+
+Link to my SQL codes
+Project Case:
+  I was appointed a data analyst for Udy_Xpress which is an e-commerce
+  company. They have recently invested in a new technology and are keen to
+  migrate their data into this new capability.
+  They currently maintain a suite of excel files, which they want to migrate
+  onto a dedicated MYSQL Database. Furthermore, they want to leverage data
+  as a source of information and will also want me to lead on the reporting
+  process of this project.
+Procedures and tools used:
+  I focused on cleaning the data, adding new columns where
+  necessary and importing the dataset into MySQL Workbench. I
+  modified each unique keys for each table to a varchar(12) and later
+  converted them into primary and foreign keys in order to get the
+  entity relational diagram. Then I conducted Exploratory data
+  analysis on the datasets before writing queries to answer various
+  business problems.
+Entity Relational Diagram
+  Data Observation With SQL
+  The tables were imported into Udy_Xpress
+  database in MySQL Workbench, then I wrote
+  queries to interact with the data.
+Business Questions
+  Your company is having a
+  layoff and your boss tells
+  you create a list of
+  employees that does not
+  have a degree.
+Business Questions
+  My boss wants to know
+  the product that
+  generated the most sales
+  from the data we have.
+  Business Problem
+  With my experience working as a data analyst at Udy_xpress, I noticed
+  that in order to get the price of a product you have to manually search
+  for the product code and price from the database. So I created a stored
+  procedure that gives you the price of product when you input the
+  product code(This is similar to scanning of a product barcode to get the
+  price). Below is an illustration of me inputting the product code and
+  getting the price.
+Business Questions
+  I was asked to create a database where the names and emails of customers who subscribed to be receiving
+  weekly newsletters are stored.
+  So I decided to create a view, The reason for using a view is each time a customer signs up and registers to
+  be receiving weekly newsletters on the company’s website, their information is being saved in the customer
+  table and it’ll automatically be added to the subscribers_table.
+Business Questions
+  In the month of march the company had a problem with the price software and it overcharged people that
+  placed orders. I was asked to create a list of people that purchased a product/products in the month of march.
+  The main aim of doing this is to enable the company know the people that made a purchase during that period
+  so that a refund can be given to them.
+Business Questions
+  Business analysts and customer_care has done well in their jobs and I was asked to give them 0.6 raise for
+  business analyst and 0.8 raise for customer care and give the rest 0.3 raise.
+Business Problem
+  So before udy_express website launched I created a stored procedure that’ll allow
+  customers to access their information from the database using their username and
+  password. Below shows the user inputting his login details as well as his information
+  being displayed:
+Business questions
+  The manager realised that some departments are short staffed and wants you to find the job
+  title with less than 3 people working so that he can hire more people to work in that
+  department:
+Business Problem
+  I realized that I usually need to find the cust_id, country and order date from Udy_Xpress database on a daily
+  basis, so I created a CTE to store the query in order for me to be able to run it with few lines of codes.
+  I was asked to find the country with the highest customers in the month of February as seen below:
+  Business Problem
+  I decided to write a function in SQL to format a number that has a Nigerian country
+  code. It removes the country code and adds 0 in place of it. (This was just a bonus
+  query)
+Conclusion
+  ● I was able to understand the concept of databases as well as foreign keys and primary
+  keys.
+  ● I understood how to join multiple tables and how it worked.
+  ● I was able to know more about the functionalities of a stored procedure.
+  ● For records that you need to update on a regular basis, Views is more suitable to use.
+  ● Lastly, I was able to understand how to use functions and its syntax.
+  ● SQL codes
+Thank you!
